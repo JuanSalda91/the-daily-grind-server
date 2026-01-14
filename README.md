@@ -7,7 +7,7 @@ res.sendFile() sends an entire file from the file system. Use it when serving HT
 
 Example:
 
-res.send('<h1>Hello</h1>') - sends HTML string directly
+res.send('Hello') - sends HTML string directly
 
 res.sendFile(path.join(__dirname, 'public', 'index.html')) - sends the actual file
 
